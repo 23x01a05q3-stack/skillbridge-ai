@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "role": "Python Developer",
+        "description": "Develop and maintain web applications using Python and Flask. Experience with SQL and Git is required. Familiarity with cloud services and testing frameworks is a plus.",
+        "skills": [
+            "Python",
+            "Flask",
+            "SQL",
+            "Git",
+            "REST API",
+            "Docker",
+            "AWS",
+            "Unit Testing",
+            "FastAPI",
+            "PostgreSQL",
+            "Redshift",
+            "Redis",
+            "Celery",
+            "Asyncio"
+        ]
+    },
+    {
+        "id": 2,
+        "role": "Frontend Developer",
+        "description": "Create interactive user interfaces with React and Javascript. Knowledge of CSS, Tailwind, and modern state management is essential. Experience with component-driven development is preferred.",
+        "skills": [
+            "React",
+            "Javascript",
+            "CSS",
+            "Tailwind",
+            "Vite",
+            "HTML",
+            "TypeScript",
+            "Redux",
+            "Framer Motion",
+            "Jest",
+            "Cypress",
+            "Next.js",
+            "GraphQL",
+            "Responsive Design"
+        ]
+    },
+    {
+        "id": 3,
+        "role": "Data Scientist",
+        "description": "Analyze large datasets and build machine learning models using Scikit-learn and Pandas. Proficiency in NLP, Deep Learning, and data visualization is required.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Scikit-learn",
+            "Pandas",
+            "Numpy",
+            "NLP",
+            "SQL",
+            "PyTorch",
+            "TensorFlow",
+            "Matplotlib",
+            "Seaborn",
+            "Statistical Modeling",
+            "Big Data",
+            "Spark"
+        ]
+    },
+    {
+        "id": 4,
+        "role": "DevOps Engineer",
+        "description": "Automate deployment pipelines and manage cloud infrastructure using AWS, Docker, and Kubernetes. Strong focus on security, scalability, and monitoring.",
+        "skills": [
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "Linux",
+            "Jenkins",
+            "Terraform",
+            "Ansible",
+            "CI/CD",
+            "Monitoring",
+            "Prometheus",
+            "Grafana",
+            "Nginx",
+            "CloudFormation"
+        ]
+    },
+    {
+        "id": 5,
+        "role": "Backend Engineer",
+        "description": "Build scalable backend systems using Java and Spring Boot. Experience with microservices, distributed systems, and relational databases like PostgreSQL is required. Knowledge of Kafka and Redis is a plus.",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "Microservices",
+            "PostgreSQL",
+            "Redis",
+            "Git",
+            "Unit Testing",
+            "JUnit",
+            "Kafka",
+            "Docker",
+            "REST API",
+            "Hibernate",
+            "Security"
+        ]
+    },
+    {
+        "id": 6,
+        "role": "Full Stack Developer",
+        "description": "Develop end-to-end web applications using the MERN stack. Proficient in React for the frontend and Node.js/Express for the backend. Strong understanding of MongoDB and state management.",
+        "skills": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Redux",
+            "REST API",
+            "Git",
+            "Jest",
+            "TypeScript"
+        ]
+    },
+    {
+        "id": 7,
+        "role": "Mobile Developer",
+        "description": "Create cross-platform mobile applications using Flutter and Dart. Experience with mobile UI/UX, state management with Bloc or Provider, and integrating with RESTful APIs.",
+        "skills": [
+            "Flutter",
+            "Dart",
+            "Mobile App Development",
+            "UI/UX",
+            "Firebase",
+            "REST API",
+            "Git",
+            "SQLite",
+            "Widget Testing",
+            "Async Programming"
+        ]
+    },
+    {
+        "id": 8,
+        "role": "Cybersecurity Analyst",
+        "description": "Monitor and protect organization's networks and systems from security breaches. Experience with incident response, penetration testing, and knowledge of security protocols and compliance standards.",
+        "skills": [
+            "Cybersecurity",
+            "Network Security",
+            "Penetration Testing",
+            "Incident Response",
+            "Firewalls",
+            "Wireshark",
+            "Metasploit",
+            "SIEM",
+            "Compliance",
+            "Linux",
+            "Python",
+            "Ethical Hacking"
+        ]
+    },
+    {
+        "id": 9,
+        "role": "UI/UX Designer",
+        "description": "Design user-centered interfaces and experiences for web and mobile. Proficient in Figma, wirepadding, prototyping, and accessibility standards. Focused on high-fidelity designs and user research.",
+        "skills": [
+            "UI/UX",
+            "Figma",
+            "Prototyping",
+            "Wireframing",
+            "User Research",
+            "Accessibility",
+            "Adobe XD",
+            "Visual Design",
+            "Interaction Design",
+            "Design Systems"
+        ]
+    }
+]

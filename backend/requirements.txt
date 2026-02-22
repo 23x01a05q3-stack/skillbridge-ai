@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+gunicorn
+spacy
+scikit-learn
+pdfplumber
+numpy
