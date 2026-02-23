@@ -132,7 +132,7 @@ a {
   border: 1px solid var(--border-glass);
   box-shadow: var(--shadow-lg);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .glass::before {
@@ -641,10 +641,30 @@ select {
   cursor: pointer;
   transition: var(--transition-spring);
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='var%28--accent-blue%29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%233b82f6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 1.25rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  position: relative;
+  z-index: 10;
+}
+
+select:focus {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+  border-color: var(--accent-blue);
+}
+
+select option {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
 }
 
 .terminal-header {

@@ -91,11 +91,23 @@ const UploadSection = ({ onAnalysisComplete }) => {
                     <motion.div whileHover={{ y: -2 }} transition={springTransition}>
                         <label className="block text-lg font-black text-slate-300 mb-5 uppercase tracking-[0.2em] text-center">Step 1: Choose Your Target Role</label>
                         <select
-                            className="w-full bg-slate-900/10 border border-slate-700/20 p-6 text-xl text-blue-700 outline-none hover:border-blue-400 transition-all font-bold cursor-pointer"
-                            style={{ borderRadius: '18px', boxShadow: 'var(--shadow-primary)' }}
+                            className="w-full p-6 text-xl outline-none font-bold cursor-pointer"
+                            style={{
+                                borderRadius: '18px',
+                                boxShadow: 'var(--shadow-primary)',
+                                border: '1px solid var(--border-primary)',
+                                backgroundColor: 'var(--bg-secondary)',
+                                color: 'var(--text-primary)',
+                                position: 'relative',
+                                zIndex: 20,
+                                paddingRight: '3rem',
+                            }}
                             value={selectedJob}
                             onChange={(e) => setSelectedJob(e.target.value)}
                         >
+                            {jobs.length === 0 && (
+                                <option value="" disabled>Loading roles...</option>
+                            )}
                             {jobs.map(job => (
                                 <option key={job.id} value={job.id}>{job.role}</option>
                             ))}
